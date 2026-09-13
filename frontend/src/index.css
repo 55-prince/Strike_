@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* For DaisyUI v4, no extra import needed — it's auto-included */
+/* But if you want custom themes, use: */
+@plugin "daisyui";
+
+:root {
+  --bg-primary: #000000;
+  --text-primary: #ffffff;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
